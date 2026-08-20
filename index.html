@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simplicity Vegan — Angelic Baking, Heavenly Treats</title>
+<meta name="description" content="Simplicity Vegan is a fully plant-based home bakery in Langley, BC — cookies, cakes, bars, muffins and bread made with real ingredients. Order for pickup or delivery.">
+<link rel="icon" href="assets/img/wordmark.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <img src="assets/img/wordmark.png" alt="Simplicity Vegan">
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html" aria-current="page">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Langley, BC · 100% Plant-Based</p>
+      <h1 class="script">Simplicity Vegan</h1>
+      <p class="hero-tagline eyebrow">Angelic Baking &nbsp;|&nbsp; Heavenly Treats</p>
+      <p class="hero-lede">Cookies, cakes, bars and bread made from scratch with real, wholesome
+        ingredients — no dairy, no eggs, no compromise. Baked to order in small batches.</p>
+      <div class="btn-row">
+        <a href="menu.html" class="btn btn-primary">View the Menu</a>
+        <a href="contact.html" class="btn btn-outline">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="scallop scallop-down" role="presentation"></div>
+
+  <!-- INTRO -->
+  <section class="intro" style="background:var(--white)">
+    <div class="container intro-grid">
+      <div>
+        <p class="eyebrow">Our approach</p>
+        <h2 style="font-size:clamp(28px,3.6vw,38px); margin-top:.3em;">Simple ingredients.<br>Serious flavour.</h2>
+        <p style="color:var(--taupe)">Every item on our menu is fully vegan, made with things like almond
+          butter, coconut sugar, maple syrup and flax — many recipes are gluten-free or seed-oil-free too.
+          We bake in small batches out of Langley and deliver across the Lower Mainland and Fraser Valley,
+          so what you get is always fresh.</p>
+        <div class="badge-row">
+          <span class="badge"><span class="dot"></span>100% Vegan</span>
+          <span class="badge"><span class="dot"></span>Gluten-Free Options</span>
+          <span class="badge"><span class="dot"></span>Seed-Oil-Free Options</span>
+          <span class="badge"><span class="dot"></span>Free Delivery Over $100</span>
+        </div>
+      </div>
+      <div>
+        <div class="g-item" style="border-radius:2px;">
+          <img src="assets/img/cinnamon-buns.jpg" alt="Vegan cinnamon buns with cream cheese frosting, sliced open on a lemon-print plate">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery">
+    <div class="container">
+      <div class="section-head center">
+        <p class="eyebrow">From the kitchen</p>
+        <h2>A few seasonal favourites</h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="g1">
+          <div class="g-item"><img src="assets/img/nanaimo-bars.jpg" alt="Vegan Nanaimo bars, cut into squares, plated on a paper doily"></div>
+          <p class="g-caption">Nanaimo Bars</p>
+        </div>
+        <div class="g2">
+          <div class="g-item"><img src="assets/img/pb-bars.jpg" alt="Vegan salted peanut butter bars topped with chocolate"></div>
+          <p class="g-caption">Salted Peanut Butter Torte</p>
+        </div>
+        <div class="g3">
+          <div class="g-item"><img src="assets/img/cookies.jpg" alt="Frosted vegan cookies alongside chocolate no-bake cookies"></div>
+          <p class="g-caption">Frosted Spice Cookies</p>
+        </div>
+        <div class="g4">
+          <div class="g-item"><img src="assets/img/cinnamon-buns.jpg" alt="Vegan cinnamon buns with vegan cream cheese frosting"></div>
+          <p class="g-caption">Cinnamon Buns</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="scallop scallop-up on-white" role="presentation" style="background:var(--white)"></div>
+
+  <!-- CTA -->
+  <section class="cta-strip">
+    <div class="container">
+      <p class="script">Baking for something special?</p>
+      <p>Custom orders, catering trays and dietary swaps are always welcome —
+        just tell us what you have in mind.</p>
+      <a href="contact.html" class="btn btn-outline">Get in Touch</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-row">
+    <span>© <span id="year"></span> Simplicity Vegan Baking — Langley, BC</span>
+    <ul class="footer-links">
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="mailto:simplicityveganbaking@gmail.com">Email Us</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="assets/script.js"></script>
+</body>
+</html>
